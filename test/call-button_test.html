@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+  <title>call-button test</title>
+
+  <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+  <script src="../node_modules/wct-browser-legacy/browser.js"></script>
+
+  <script type="module">
+    import '../call-button.js';
+  </script>
+</head>
+<body>
+
+<test-fixture id="BasicTestFixture">
+  <template>
+    <call-button></call-button>
+  </template>
+</test-fixture>
+
+<test-fixture id="ChangedPropertyTestFixture">
+  <template>
+    <call-button prop1="new-prop1"></call-button>
+  </template>
+</test-fixture>
+
+<script></script>
+</body>
+</html>
